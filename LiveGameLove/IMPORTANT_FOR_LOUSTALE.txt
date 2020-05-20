@@ -1,0 +1,24 @@
+A lot of these files are very very similar but different to fit each table. I duplicated my own code a LOT to fit other things
+
+The files I put remarks on are:
+
+gamingpc.php
+
+home.php
+
+inputpage.php
+
+phpdeletelink.php
+
+phplaptoplink.php
+
+dealspage.php
+
+dp.php
+
+and all the .css stuff (2 files)
+
+
+
+
+HTMLs ARE UNIMPORTANT!!!

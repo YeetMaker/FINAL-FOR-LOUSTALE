@@ -1,0 +1,135 @@
+.header{                   /*This is the style sheet only for the header and footer*/
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+  
+    
+  }
+  .inner-header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+  
+  }
+  .logo-container{ /*This contains the LiveGameLove logo*/
+    height: 100%;
+    display: table;
+    float:left;
+    
+    
+  }
+  .logo-container h1, .footer h2{ /* This is the LiveGameLove logo(both in header and footer) and it decides everything about the positioning of the font and about the font*/
+    color: white;
+    height: 100%;/*This makes it so it takes up the entire height of the logo-container/footer*/
+    vertical-align: middle;/*This puts the text in the middle of the header or footer as opposed to the top or the bottom*/
+    display: table-cell;
+    font-family: 'arial';
+    font-size: 32px;
+    font-weight: 1;
+  }
+  .logo-container h1 span, .footer h2 span{
+    font-weight: 800; /*This is what makes the Game part of LiveGameLove thick and look cool. Just some little detail*/
+    color: grey;
+    
+  }
+  .nav{
+    float: right; /*This is what makes the nav stick to the right side of the header(its where the buttons/hyperlinks are)*/
+    height: 100%;
+    margin-top: 0; /*Makes it so that there is no space between the top of the nav and the top of the header*/
+    margin-bottom: 0;/*Makes it so that there is no space between the bottom of the nav and the bottom of the header*/
+  }
+  .nav a{
+    height: 100%;
+      display: table;
+    float: left;
+    padding: 0px 20px;
+  }
+  .nav a li{          /*The nav includes an unordered list which is made up of lists containing hyperlinks*/
+    display: table-cell;      
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'arial';
+    font-size: 16px;/* This controls the font size of the contents of the list*/
+  }
+  .nav a:last-child{
+    padding-right: 0;/* This makes it so that the last thing in nav is as close to the right as possible */
+  }
+  .nav a li button{
+    border: none;
+    color: white;
+    font-family: 'arial';             /*I think I took out all buttons and everything I have are hyper links but I'm keeping this just in case*/
+    font-size: 16px;
+    background: none;
+  }
+  .nav a{
+      color:none;
+  }
+
+
+ /*FOOTER SECTION*/
+
+
+  .footer{
+    background: #101010;
+    height: 400px; /* This determines the height of the footer as a whole */
+    position: relative;
+    display: block;/* This helps display things either side by side or on top of one another */
+
+    
+  }
+  .footer .footer-content{
+    
+    height: 330px;
+    display: flex; /*This displays its contents side by side*/
+  }
+  .footer .footer-bottom{
+  
+    background: #0a0a0a;
+    color: #bababa;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    position: absolute;/*This makes it so that it can only be at the bottom and it's stuck there*/
+    bottom: 0px;
+    left: 0px;
+    
+  }
+  
+  .footer .footer-content .footer-section{
+    flex: 1;
+    
+    padding: 25px;
+  }
+  .contact span{ 
+    padding: 20px;
+    color:white;
+    font-family: "arial"; /*Makes it so the font is arial*/
+  }
+  .social{
+    padding-top:20px;/*The social section is made to have 20px between the left and top side of*/
+    padding-left:20px;
+  }
+  .social a{
+    padding: 3px;
+  }
+  .good{
+    font-family:"arial";
+    color: #ebebeb;
+    font-size: 20px;
+  }
+  .fa-facebook{
+    color:#3b5998; /*This is hyperlinked to social media*/
+    border-radius: 30px;
+    font-size: 30px;
+  }
+  .fa-facebook:Hover{/*If you hover over the hyperlink then this will change what it looks like to show it's hovered over*/
+  color: blue;
+  }
+  body{
+    margin: 0px 0px 0px 0px; /*This makes it so that the site takes up the full amount of space*/
+    height: 100%; /*It is the max height*/
+    
+  }
